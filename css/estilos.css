@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#init{
+    margin-right: -100%;    
+}
+
+section{
+    padding: 70px 0;    
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 15px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home .max-width{
+    margin: auto 0 auto 0px;    
+}
+#home{
+    background: #000;
+}
+
+.about{
+    background: #fff;
+}
+
+/*Acerca del salon*/
+.about .about-content .column{
+    width: 100%;
+}
+.about .about-content .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content p{
+    text-align: justify;
+}
+
+/* footer section styling */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+footer span a{
+    color:orange;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+#reg-exitoso{
+    position: fixed;
+    margin: 0 auto;    
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: none;
+}
